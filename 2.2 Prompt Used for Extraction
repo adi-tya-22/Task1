@@ -1,0 +1,40 @@
+Extract structured content from the Class 8 NCERT Science textbook chapter provided. Do NOT summarize or interpret. Organize the content as follows:
+
+Hierarchy:
+- Chapter Name
+  - Topic Name
+    - Sub-topic Header
+      - Paragraphs (with page numbers)
+      - Images/Diagrams (with captions and page numbers)
+      - Tables (titles and page numbers)
+      - Examples
+      - Exercises
+      - Activities
+      - Questions (In-text, HOTS, Exercise)
+      - External Sources or Boxed Facts
+
+Output Format: JSON with the structure:
+{
+  "chapter_name": "",
+  "topics": [
+    {
+      "topic_name": "",
+      "subtopics": [
+        {
+          "subtopic_header": "",
+          "content": {
+            "paragraphs": [],
+            "images": [],
+            "tables": [],
+            "examples": [],
+            "exercises": [],
+            "activities": [],
+            "questions": [],
+            "boxed_facts": []
+          }
+        }
+      ]
+    }
+  ]
+}
+Ensure all content includes page number and preserves textbook structure faithfully.
