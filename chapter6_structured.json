@@ -1,0 +1,35 @@
+{
+  "chapter_name": "Combustion and Flame",
+  "topics": [
+    {
+      "topic_name": "What is Combustion?",
+      "subtopics": [
+        {
+          "subtopic_header": "Definition and Examples",
+          "content": {
+            "paragraphs": [
+              {"text": "Combustion is a chemical process in which a substance reacts with oxygen to give off heat.", "page": 66}
+            ],
+            "images": [
+              {"caption": "Figure of candle burning", "page": 67}
+            ],
+            "tables": [],
+            "examples": [
+              {"text": "Burning of wood and coal", "page": 66}
+            ],
+            "exercises": [],
+            "activities": [
+              {"text": "Try lighting a magnesium ribbon and observe", "page": 67}
+            ],
+            "questions": [
+              {"text": "Define combustion and give examples.", "page": 71}
+            ],
+            "boxed_facts": [
+              {"text": "Did you know oxygen is the supporter of combustion?", "page": 66}
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
